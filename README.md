@@ -55,8 +55,8 @@
 | 이름     | 
 |----------|
 | [문규성](https://github.com/moon-moon1)   | 
-| 신성준   | 
-| 제승완   | 
+| [신성준](https://github.com/tls5657)   | 
+| [제승완](https://github.com/Jeseungwan)   | 
 
 ---
 
