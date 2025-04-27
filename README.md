@@ -50,6 +50,28 @@
 
 ---
 
+## 📂 프로젝트 폴더 구조
+/기상변화대응 자율주행 │ ├── README.md ├── 발표자료/ # 발표 자료 모음 ├── 회의록/ # 회의록 정리 ├── src/ # 소스코드 │ ├── main.py # 메인 실행 파일 │ ├── camera.py # 카메라 처리 모듈 │ ├── motor_control.py # 모터 제어 모듈 │ ├── weather_filter.py # 날씨 보정 알고리즘 (CLAHE, Gamma 등) │ └── object_detection.py # YOLO 기반 객체 인식 ├── models/ # 학습된 모델 파일 (ex. yolov5s.pt) ├── data/ # 테스트 데이터 (예: 이미지, 센서 로그) └── requirements.txt # 파이썬 패키지 목록
+
+---
+
+## 🚀 실행 방법
+
+```bash
+# 1. 패키지 설치
+pip install -r requirements.txt
+
+# 2. 메인 코드 실행
+python src/main.py
+
+참고:
+
+라즈베리파이 환경에서 실행 권장
+
+카메라, 모터, 센서가 연결된 상태에서 동작
+
+---
+
 ## 👥 팀 구성
 
 | 이름     | 
